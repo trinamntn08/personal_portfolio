@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109064262-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-109064262-1');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio webpage">
+	<meta name="author" content="NGUYEN Tri-Nam">
+
+	<link type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+	<link rel="shortcut icon" href="/static/main/images/logo.png" />
+	<title>Tri-Nam | Software Developper</title>
+
+	<!-- CSS -->
+	<link href="/static/main/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="/static/main/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="/static/main/css/animate.css%22%20rel%3D%22stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="/static/main/css/style.css" rel="stylesheet" media="screen">
+
+    <script src="/static/main/js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-custom" role="navigation">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1><a class="navbar-brand" rel="home" href="#" ><img style="max-width:60px; margin-top: -20px; margin-left: 80px;" src="/static/main/images/logo_mini1.png" alt="logo" /></a></h1>
+
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutme">About me</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- .container -->
+
+        </nav>
+
+    </header>
+    <main role="main">
+        {% block page_content %}
+
+        {% endblock page_content %}
+    </main>
+</body>
+</html>
+<!-- Navigation end -->
