@@ -30,7 +30,7 @@ STATICFILES_DIRS = [
 SECRET_KEY = 'v$zub-tlqexbzacrd88jat**$sjq1mqt09))&)0ogk279yu+y#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -159,7 +159,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST ='smtp.gmail.com'
 EMAIL_HOST_USER = 'trinamntn08@gmail.com'
-DEFAULT_FROM_EMAIL = 'trinamntn08@gmail.com'
+DEFAULT_FROM_EMAIL = 'testing@gmail.com'
 SERVER_EMAIL = 'trinamntn08@gmail.com'
 EMAIL_HOST_PASSWORD = 'yxvsxqvmvhfvdjkb'
 EMAIL_PORT = 587

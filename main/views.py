@@ -23,10 +23,15 @@ class mainpage(SuccessMessageMixin, ListView,FormView):
         # This method is called when valid form data has been POSTed.
         cd = form.cleaned_data
         con = get_connection('django.core.mail.backends.smtp.EmailBackend')
+
+        name = form.cleaned_data['name']
+        message = form.cleaned_data['message']
+        sender = form.cleaned_data['email']
+
         send_mail(
-            cd['name'],
-            cd['message'],
-            cd.get('email', 'noreply@example.com'),
+            name,
+            message+ " from "+sender,
+            sender,
             ['trinamntn08@gmail.com'],
             fail_silently=False
         )
