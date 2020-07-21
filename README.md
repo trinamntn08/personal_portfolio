@@ -18,9 +18,12 @@ Create and activate a virtual environment on the cloned template folder for deve
 In your project directory, install required packages:
 <br/>`pip install requirements.txt`
 
-## To run the program in local server, use the following command
+To run the program in local server, use the following command
 `python manage.py runserver`
 <br/>Then go to http://127.0.0.1:8000 in your browser
 
-### Attention: 
+* Attention: 
 To run the project properly in local server, set `Debug = True` in settings.py file
+
+## Contact
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot me an email at [trinamntn08@gmail.com](trinamntn08@gmail.com).
