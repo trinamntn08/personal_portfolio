@@ -1,8 +1,8 @@
 # personal_portfolio
-My Portfolio Project Build with Django 2.1.4
+My Portfolio Project Build with Django 3.0.8
 
 ## Prerequisites
-python== 3.7 or up and django==2.1.4
+python== 3.7 or up and django==3.0.8
 
 ## Clone this repository
 `git clone https://github.com/trinamntn08/personal_portfolio.git`
