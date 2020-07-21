@@ -10,6 +10,7 @@ python== 3.7 or up and django==3.0.8
 ## Install in your local machine
 Download the virtualenv package.
 <br/> `pip install virtualenv`
+
 <br/>Create and activate a virtual environment on the cloned template folder for development.
 <br/>`virtualenv personal-portfolio-env`
 <br/>`source personal-portfolio-env/bin/activate`
